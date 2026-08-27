@@ -1,0 +1,15 @@
+<h1>
+
+    Based on the marks you have{{ result }}
+
+    {% if result >= 50 %}
+        <h2>Excellent with marks: {{ result }}</h2>
+    {% elif result >= 75 %}
+        <h2>Good with marks: {{ result }}</h2>
+    {% elif result >= 50 %}
+        <h2>Average with marks: {{ result }}</h2>
+    {% else %}
+        <h2>Poor with marks: {{ result }}</h2>
+    {% endif %}
+
+</h1>
